@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200px">
+
+    <ImageView
+        android:id="@+id/flagIV"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/CountriesnNamesTV"
+        android:layout_width="82dp"
+        android:layout_height="61dp"
+        android:layout_weight="0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/CapitalTV"
+        android:layout_width="84dp"
+        android:layout_height="59dp"
+        android:layout_weight="0" />
+
+    <TextView
+        android:id="@+id/PopulationTV"
+        android:layout_width="89dp"
+        android:layout_height="57dp"
+        android:layout_weight="0" />
+
+</LinearLayout>
